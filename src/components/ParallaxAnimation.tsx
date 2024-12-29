@@ -1,22 +1,27 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from "react";
+import { motion } from "framer-motion";
 
-interface Props{
-    children: React.ReactNode
-    className?: string
-    delay?: number
-    translateY: any
+interface Props {
+  children: React.ReactNode;
+  className?: string;
+  delay?: number;
+  translateY: any;
 }
-const ParallaxAnimation = ({children, className, delay, translateY}: Props) => {
+const ParallaxAnimation = ({
+  children,
+  className,
+  delay,
+  translateY,
+}: Props) => {
   return (
     <motion.div
-     className={className}
-     style={{translateY: translateY}}
-     transition={{delay: delay}}
+      className={className}
+      style={{ y: translateY }}
+      transition={{ delay }}
     >
-        {children}
+      {children}
     </motion.div>
-  )
-}
+  );
+};
 
-export default ParallaxAnimation
+export default ParallaxAnimation;

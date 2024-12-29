@@ -411,7 +411,7 @@ const Hero = () => {
 
       <Cards />
 
-      <section className="lg:pt-32 pb-20 sm:px-20 xl:px-0">
+      <section className="lg:pt-32  pb-20 sm:px-20 xl:px-0">
         <div className="lg:flex gap-10 xl:justify-around  px-4 xl:px-44  w-full">
           <div className="lg:sticky lg:top-[30rem] xl:top-52  h-full flex flex-col gap-6 text-left">
             <div className="flex gap-1 items-center text-left text-lg text-purple-500">
@@ -428,10 +428,10 @@ const Hero = () => {
               </span>
             </p>
           </div>
-          <div className="hidden lg:flex flex-col lg:gap-56 xl:gap-20">
+          <div className="hidden lg:flex lg:sticky lg:top-[30rem] xl:top-52  h-full flex-col lg:gap-56 xl:gap-[100vh]">
             {[...Array(3)].map((_, index) => (
               <div
-                className=" shadow-lg rounded-xl lg:h-[31rem] xl:h-[38rem] lg:w-[26rem] xl:w-full  bg-[#101010] flex xl:p-8 justify-center hover:drop-shadow-xl hover:shadow-green-900 transition-all ease-in-out duration-700"
+                className=" shadow-lg  h- rounded-xl lg:h-[31rem] xl:h-[38rem] lg:w-[26rem] xl:w-full  bg-[#101010] flex xl:p-8 justify-center hover:drop-shadow-xl hover:shadow-green-900 transition-all ease-in-out duration-700"
                 key={index}
               >
                 <div className="flex flex-col gap-8">

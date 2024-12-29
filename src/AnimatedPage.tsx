@@ -1,30 +1,39 @@
 // src/AnimatedPage.js
-import React from 'react';
-import { motion } from 'framer-motion';
-import Slide from './components/Slide';
+import React from "react";
+import { motion } from "framer-motion";
+import Slide from "./components/Slide";
+import Paragraph from "./components/Paragraph";
 
 const AnimatedPage = () => {
+  const text = `  Hey I am Nabeel, a committed software engineering student with practical
+  experience in full stack development. I have worked on several projects
+  involving both frontend and backend components. My strong interest in
+  technology drives me to develop effective and innovative solutions, and
+  I am eager to continue advancing my skills in this field. `;
   return (
-    <div className='w-full h-full '>
-        <section className='flex flex-col w-full items-center justify-center p-8 h-[100vh] bg-cyan-800 text-white font-serif'>
-        <Slide>
-          <h1 className='text-[5rem]'>HEY WELCOME TO FRAMER MOTION</h1>
-        </Slide>
-        </section>
-        <section className='flex flex-col w-full text-left px-44 h-[100vh] bg-blue-800 justify-center text-white font-serif'>
-          <Slide><p className='text-4xl'>Framer motion is easy to use</p></Slide>
-          <Slide>
-            <p className='text-4xl'>Just follow the documentations and practice and you will find out that it's easy</p>
-          </Slide>
-        </section>
-        <section className='flex flex-col w-full p-8 h-[100vh] justify-center bg-orange-800 text-white font-serif'>
-          <Slide>
-            <h1 className='text-[3.5rem]'>THANKS FOR READING THIS</h1>
-          </Slide>
-        
-        </section>
+    <div>
+      {/* <body className="flex items-center justify-center min-h-screen">
+        <div className="relative overflow-hidden w-full max-w-3xl p-4">
+          <div className="mask-left"></div>
+          <div className="mask-right"></div>
+          <div className="marquee-content">
+            <p className="text-xl font-semibold">
+              This is a marquee effect with gradient masks on both ends. The
+              content moves from right to left, with fading shadows at the start
+              and end points.
+            </p>
+          </div>
+        </div>
+      </body> */}
+      <div className="h-screen"></div>
+      <Paragraph value={text} />
+      <div className="h-screen">okay</div>
     </div>
   );
 };
 
 export default AnimatedPage;
+
+/*
+
+ */
