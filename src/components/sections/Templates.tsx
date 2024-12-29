@@ -3,17 +3,10 @@ import { FaStarHalf } from "react-icons/fa";
 import Contextual from "../../assets/images/contextual.png";
 import Verified from "../../assets/images/verified.png";
 import Template from "../../assets/images/template.png";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Templates = () => {
   const betaRef = useRef<HTMLDivElement>(null);
-
-  const { scrollYProgress: betSacrollYProgress } = useScroll({
-    target: betaRef,
-    offset: ["start end", "end end"],
-  });
-
-  const translateXBeta = useTransform(betSacrollYProgress, [0, 1], [-100, 100]);
 
   return (
     <section className="pt-20 pb-8 hidden lg:inline">

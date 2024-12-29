@@ -1,7 +1,4 @@
 // src/AnimatedPage.js
-import React from "react";
-import { motion } from "framer-motion";
-import Slide from "./components/Slide";
 import Paragraph from "./components/Paragraph";
 
 const AnimatedPage = () => {

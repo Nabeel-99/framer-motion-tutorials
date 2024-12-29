@@ -144,8 +144,6 @@ const Hero = () => {
   const translateX6 = useTransform(gridScrollYProgress, [0, 1], [100, 40]);
   const scale6 = useTransform(gridScrollYProgress, [0, 1], [0.7, 1]);
 
-  const translateXBeta = useTransform(betSacrollYProgress, [0, 1], [-100, 100]);
-
   const { scrollY } = useScroll();
   const scrollProgress = useTransform(scrollY, (value) => {
     if (sectionRef.current) {
