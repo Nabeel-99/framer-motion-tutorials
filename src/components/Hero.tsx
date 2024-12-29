@@ -46,11 +46,6 @@ const Hero = () => {
     offset: ["start end", "end end"],
   });
 
-  const { scrollYProgress: betSacrollYProgress } = useScroll({
-    target: betaRef,
-    offset: ["start end", "end end"],
-  });
-
   const { scrollYProgress: section4ScrollYProgress } = useScroll({
     target: sectionRef4,
     offset: ["start end", "end start"],
