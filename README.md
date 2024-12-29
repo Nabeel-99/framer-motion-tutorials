@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+# Framer Motion Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + TypeScript project showcasing various animation implementations using Framer Motion, inspired by Chronicle-style animations. Built with modern web technologies for smooth, interactive user experiences.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Smooth page transitions
+- Interactive hover animations
+- Scroll-triggered animations
+- Text reveal effects
+- Image parallax effects
+- Gesture-based animations
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Nabeel-99/framer-motion-tutorials.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory:
+
+```bash
+cd framer-motion-tutorials
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+### Tools & Libraries Used
+
+### Tools & Libraries Used
+
+#### Core Technologies
+
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: Type-safe JavaScript with improved developer tooling.
+- **Vite**: Next-generation front-end tool for development and bundling.
+
+#### Styling
+
+- **Tailwind CSS**: Utility-first CSS framework for responsive designs and rapid prototyping.
+
+#### Animations
+
+- **Framer Motion**: Comprehensive animation library for React, used for page transitions, element animations, and interactive motion effects.
