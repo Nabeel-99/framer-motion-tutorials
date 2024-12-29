@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaStarHalf } from "react-icons/fa";
 import { FaBarsStaggered, FaXmark } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const openBurgerMenu = () => {

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { FaStarHalf } from "react-icons/fa";
 import Contextual from "../../assets/images/contextual.png";
 import Verified from "../../assets/images/verified.png";

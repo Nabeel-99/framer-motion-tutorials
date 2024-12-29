@@ -1,11 +1,5 @@
-import React, { useRef } from "react";
-import {
-  AnimatePresence,
-  easeIn,
-  motion,
-  useScroll,
-  useTransform,
-} from "framer-motion";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import blockRoadmap from "../../assets/images/block-roadmap.png";
 import blockJessica from "../../assets/images/block-jessica.png";
 import blockRanking from "../../assets/images/block-ranking.png";

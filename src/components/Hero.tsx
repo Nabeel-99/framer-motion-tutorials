@@ -1,27 +1,13 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import heroImage from "../assets/images/hero.png";
-import IpadScreen from "../assets/images/Group 16.png";
 import {
   AnimatePresence,
-  easeIn,
   motion,
   useScroll,
   useTransform,
 } from "framer-motion";
 import { Link } from "react-router-dom";
-import {
-  FaArrowLeft,
-  FaArrowRight,
-  FaFigma,
-  FaInstagram,
-  FaLaptop,
-  FaMobile,
-  FaSpotify,
-  FaStarHalf,
-  FaTiktok,
-  FaTwitch,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaStarHalf } from "react-icons/fa";
 import blockPoll from "../assets/images/block-poll.png";
 import blockTickets from "../assets/images/block-tickets.png";
 import blockRoadmap from "../assets/images/block-roadmap.png";
@@ -33,16 +19,12 @@ import Phone1 from "../assets/images/phone1.webp";
 import Phone2 from "../assets/images/phone2.webp";
 import Ipad from "../assets/images/ipad.png";
 import { IoLaptopOutline } from "react-icons/io5";
-import { MdOutlinePhoneIphone, MdVerified } from "react-icons/md";
+import { MdOutlinePhoneIphone } from "react-icons/md";
 import Verified from "../assets/images/verified.png";
 import Template from "../assets/images/template.png";
 import Contextual from "../assets/images/contextual.png";
 import TypewriterText from "./TypewriterText";
 import ParallaxAnimation from "./ParallaxAnimation";
-import Slide from "./Slide";
-import heroImageM from "../assets/images/hero-m.png";
-// import MobileHero from "./mobile/MobileHero.tsx";
-// import GridsHero from "./mobile/GridsHero.tsx";
 import Cards from "./Cards.tsx";
 import MobileHero from "./mobile/MobileHero.tsx";
 import MobileGrids from "./mobile/MobileGrids.tsx";

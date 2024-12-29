@@ -1,4 +1,3 @@
-import React from "react";
 import { FaStarHalf } from "react-icons/fa";
 import Ipad from "../../assets/images/ipad.png";
 import Phone1 from "../../assets/images/phone1.webp";

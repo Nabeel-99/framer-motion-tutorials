@@ -1,14 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaArrowLeft, FaArrowRight, FaStarHalf } from "react-icons/fa";
 import blockStats from "../../assets/images/block-stats.png";
 import blockTickets from "../../assets/images/block-tickets.png";
-import {
-  AnimatePresence,
-  easeIn,
-  motion,
-  useScroll,
-  useTransform,
-} from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 const StickySection = () => {
   const [currentCardIndex, setCurrentCardIndex] = useState<number>(0);
