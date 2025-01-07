@@ -11,7 +11,7 @@ const Navbar = () => {
     <div
       className={`flex flex-col  lg:py-4 h-full lg:h-auto w-full  z-20 top-0`}
     >
-      <div className="flex justify-between items-center w-full px-4 lg:px-20 pt-8 ">
+      <div className="flex justify-between relative items-center  w-full px-4 lg:px-20 pt-8 ">
         <Link
           to={"/"}
           className="flex gap-1 items-center text-2xl lg:text-2xl lg:fixed z-10"
@@ -31,13 +31,10 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <div className="hidden lg:block lg:fixed right-10 z-10">
-          <button className="bg-white font-bold px-6 py-2.5 rounded-lg hover:bg-purple-400 text-black">
+        <div className="hidden lg:block lg:fixed right-96  z-10">
+          {/* <button className="bg-white font-bold px-6 py-2.5 rounded-lg hover:bg-purple-400 text-black">
             Join Beta
-          </button>
-          <button className="bg-white ml-10 font-bold px-6 py-2.5 rounded-lg hover:bg-purple-400 text-black">
-            Join Beta
-          </button>
+          </button> */}
         </div>
         {/* burger icon */}
         <div className="lg:hidden lg:fixed">
@@ -73,7 +70,7 @@ const Navbar = () => {
               </Link>
             </ul>
           </div>
-          <div className="pb-8">
+          <div className="md:hidden pb-8">
             <button className="bg-white w-full font-bold px-6 py-2.5 rounded-lg hover:bg-purple-400 text-black">
               Join Beta
             </button>

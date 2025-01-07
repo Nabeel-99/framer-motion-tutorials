@@ -173,12 +173,12 @@ const Hero = () => {
         <motion.div
           style={{ rotateX }}
           transition={{ duration: 2.5, ease: "easeInOut" }}
-          className=" hidden lg:visible xl:w-[80%] xl:h-[80%] lg:px-6 xl:px-0  mt-8 md:flex justify-center relative"
+          className=" hidden lg:visible xl:w-[80%] xl:h-[80%] lg:px-6 xl:px-0 2xl:h-[0%] mt-8 md:flex justify-center relative"
         >
           <motion.img
             src={heroImage}
             alt="hero"
-            className="xl:h-full lg:h-[35rem] lg:w-full xl:w-full xl:object-fill lg:object-fill"
+            className="xl:h-full lg:h-[35rem] lg:w-full xl:w-full xl:object-fill lg:object-fill 2xl:h-[50rem]"
           />
           <div className="absolute flex gap- w-full  h-[34rem]">
             <div className="flex flex-col absolute top-32 left-24">
@@ -239,7 +239,7 @@ const Hero = () => {
       <MobileHero />
       {/*  */}
 
-      <motion.section className="pb-8 pt-8 sm:px-20 xl:px-0">
+      <motion.section className="pb-8 pt-8 sm:px-20 xl:px-0 2xl:pt-40">
         <div className="flex flex-col gap-10  xl:px-40">
           <h2 className="lg:text-[3.5rem] text-3xl tracking-tight">
             Featured and seen in

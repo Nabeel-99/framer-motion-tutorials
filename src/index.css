@@ -82,8 +82,11 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   /* min-width: 320px;
   min-height: 100vh; */
+  width: 100%;
+  background-color: black;
   font-family: sans-serif;
 }
 
@@ -122,6 +125,13 @@ button:focus-visible {
   background-size: fill;
   background-position: center;
   height: 100vh;
+}
+
+@media (min-width: 1536px) {
+  .bg-img {
+    background-size: 100% 100%;
+    height: 100%;
+  }
 }
 
 .bg-img-m {

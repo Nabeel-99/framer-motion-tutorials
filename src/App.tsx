@@ -13,7 +13,7 @@ function raf(time: any) {
 requestAnimationFrame(raf);
 function App() {
   return (
-    <div className="flex flex-col h-full w-screen items-center roboto-regular bg-black text-white">
+    <div className="flex flex-col h-full w-screen 2xl:container 2xl:mx-auto items-center roboto-regular bg-black text-white">
       <Router>
         <Navbar />
         <Routes>
